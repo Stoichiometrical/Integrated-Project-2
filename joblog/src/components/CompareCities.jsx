@@ -49,6 +49,11 @@ const CompareCities = () => {
 
     return (
         <div>
+            <h1>Want to move to a new ciy but no sure if its the right career move?</h1>
+            <h3>Compare the Career Oppotunity in your current city and the one you want to move to.You can also compare between two potential cities</h3>
+
+
+
             <input type="text" value={jobTitle} onChange={e => setJobTitle(e.target.value)} placeholder="Job Title" />
             <input type="text" value={location1} onChange={e => setLocation1(e.target.value)} placeholder="Location 1" />
             <input type="text" value={location2} onChange={e => setLocation2(e.target.value)} placeholder="Location 2" />

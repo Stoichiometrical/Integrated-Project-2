@@ -1,18 +1,27 @@
-import JobDataComponent from "./components/JobDataComponent";
-import JobSearchBar from "./components/JobBar";
-import JobSearchBar2 from "./components/Search";
 import CompareCities   from "./components/CompareCities";
+import JobAndSalaryInfo from "./components/Jobs";
+import JobSearch from "./components/FinalCompareCities";
+import SalarySearch from "./components/SalaryComp";
+
 
 export default function App(){
     return(
         <>
-            <h1>Want to move to a new ciy but no sure if its the right career move?</h1>
-            <h3>Compare the Career Oppotunity in your current city and the one you want to move to.You can also compare between two potential cities</h3>
+            {/*Comparing Jobs.jsx Between Two Cities*/}
+            {/*<CompareCities/>*/}
+          <JobSearch/>
 
-            {/*Comparing Jobs Between Two Cities*/}
-            <CompareCities/>
+            {/*Compare Salaries*/}
+            {/*<SalarySearch/>*/}
 
-            {/*<JobSearchBar2/>*/}
+            {/*<JobAndSalaryInfo/>*/}
+
+
+
+
+
+
+
         </>
     )
 }

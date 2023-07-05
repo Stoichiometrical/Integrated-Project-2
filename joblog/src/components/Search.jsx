@@ -36,11 +36,11 @@ import { PieChart, Pie, Cell, Tooltip } from 'recharts';
 //     }
 //
 //     // Simplify for PieChart, assuming all responses are the same
-//     const data = [{ name: 'Jobs', value: responseCount }];
+//     const data = [{ name: 'Jobs.jsx', value: responseCount }];
 //
 //     return (
 //         <div>
-//             <input type="text" value={searchTerm} onChange={e => setSearchTerm(e.target.value)} placeholder="Search Jobs" />
+//             <input type="text" value={searchTerm} onChange={e => setSearchTerm(e.target.value)} placeholder="Search Jobs.jsx" />
 //             <input type="text" value={location} onChange={e => setLocation(e.target.value)} placeholder="Location" />
 //             <button onClick={handleSearch}>Search</button>
 //
