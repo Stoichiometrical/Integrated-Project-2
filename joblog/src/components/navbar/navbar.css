@@ -1,0 +1,23 @@
+.navbar {
+  display: flex;
+  gap: 25px;
+  margin-left: 45%;
+  padding-top: 1%;
+}
+.navbar .nav-item {
+  font-size: 20px;
+  cursor: pointer;
+}
+
+@media (max-width: 600px) {
+  .navbar {
+    font-size: 8px;
+    gap: 4%;
+    margin-left: 5%;
+  }
+  .navbar .nav-item {
+    font-size: 17px;
+  }
+}
+
+/*# sourceMappingURL=navbar.css.map */

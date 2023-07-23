@@ -1,0 +1,72 @@
+.doc-container{
+  background-image: url("https://images.pexels.com/photos/733856/pexels-photo-733856.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height:100%;
+  .desc{
+    width: 60%;
+    margin-top: 2%;
+    /* From https://css.glass */
+    background: rgba(109, 100, 89, 0);
+    border-radius: 5px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    padding: 14px;
+    border: 1px solid rgba(109, 100, 89, 0.32);
+
+  }
+
+
+.tem-title{
+  text-align:center;
+  font-size:25px;
+  font-weight: bold;
+  margin-top: 2%;
+  margin-bottom: 2%;
+
+
+}
+
+  .api-sect{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    .api-name{
+      font-weight: bold;
+      font-size: 24px;
+
+    }
+
+
+
+
+
+  }
+
+  .data-desc-sect{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .data-header{
+      margin-top :3%;
+      font-weight: bold;
+
+    }
+
+    .bottom{
+      margin-bottom: 5%;
+
+    }
+
+  }
+
+
+
+
+
+
+}

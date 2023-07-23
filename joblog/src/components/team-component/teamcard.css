@@ -1,0 +1,23 @@
+.card {
+  color: #6D6459;
+  background: white;
+  width: 350px;
+  border-radius: 5%;
+}
+.card .image-container .img {
+  width: 350px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 5%;
+}
+.card .text-container h2 {
+  color: #6D6459;
+  text-align: center;
+}
+.card .text-container p {
+  color: #6D6459;
+  text-align: center;
+  padding: 10px;
+}
+
+/*# sourceMappingURL=teamcard.css.map */

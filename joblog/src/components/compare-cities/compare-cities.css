@@ -1,0 +1,58 @@
+.compare-popularity {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.compare-popularity .input {
+  height: 40px;
+  border-radius: 10px;
+  margin-bottom: 1.5%;
+  border: none;
+  color: brown;
+}
+.compare-popularity .cities {
+  display: flex;
+  justify-content: space-between;
+}
+.compare-popularity button {
+  height: 40px;
+  cursor: pointer;
+  background-color: #6D6459;
+  color: white;
+  border: none;
+}
+
+@media (max-width: 600px) {
+  .compare-popularity {
+    height: 100%;
+    width: 70%;
+    margin-left: 2%;
+  }
+  .compare-popularity .input {
+    height: 40px;
+    border-radius: 10px;
+    margin-bottom: 1.5%;
+    border: none;
+    color: brown;
+  }
+  .compare-popularity .cities {
+    display: flex;
+    justify-content: space-between;
+  }
+  .compare-popularity button {
+    height: 40px;
+    cursor: pointer;
+    background-color: #6D6459;
+    color: white;
+    border: none;
+    width: 200px;
+    margin-left: 35%;
+  }
+  .compare-popularity .bar {
+    margin-top: 5%;
+    width: 100px;
+    margin-left: -22%;
+  }
+}
+
+/*# sourceMappingURL=compare-cities.css.map */

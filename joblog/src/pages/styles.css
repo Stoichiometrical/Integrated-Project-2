@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.salary-container {
+  height: 100%;
+  width: 100%;
+}
+
+.about-us {
+  background-color: #6B685E;
+  height: 100%;
+}
+.about-us h1 {
+  text-align: center;
+}
+.about-us .meet-team-sect .mt-1 {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2%;
+  gap: 15px;
+}
+.about-us .contact-us {
+  margin-top: 2%;
+}
+.about-us .contact-us .contact-header {
+  text-align: center;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+.about-us .contact-us .form-sect {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5%;
+}
+
+@media (max-width: 600px) {
+  .salary-container {
+    width: 100%;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */

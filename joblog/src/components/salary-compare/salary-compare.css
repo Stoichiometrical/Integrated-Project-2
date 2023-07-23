@@ -1,0 +1,23 @@
+.salary-search {
+  display: flex;
+  flex-direction: column;
+}
+.salary-search .input {
+  height: 40px;
+  border-radius: 10px;
+  margin-bottom: 1.5%;
+  border: none;
+}
+.salary-search .cities {
+  display: flex;
+  justify-content: space-between;
+}
+.salary-search button {
+  height: 40px;
+  cursor: pointer;
+  background-color: #6D6459;
+  color: white;
+  border: none;
+}
+
+/*# sourceMappingURL=salary-compare.css.map */

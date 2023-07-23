@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import { BarChart, Bar, XAxis, YAxis, Tooltip, CartesianGrid } from 'recharts';
+import "./salary-compare.scss"
+
 
 const SalarySearch = () => {
     const [jobTitle, setJobTitle] = useState('');
@@ -37,12 +39,15 @@ const SalarySearch = () => {
     };
 
     return (
-        <div>
-            <h1 style={{textAlign:'center'}}> Which city pays the most for your dream job?</h1>
-            <input type="text" placeholder="Job Title" onChange={e => setJobTitle(e.target.value)} />
-            <input type="text" placeholder="City 1" onChange={e => setCity1(e.target.value)} />
-            <input type="text" placeholder="City 2" onChange={e => setCity2(e.target.value)} />
-            <button onClick={handleClick}>Fetch Data</button>
+        <div className="salary-search">
+
+            <input type="text" placeholder="Job Title" onChange={e => setJobTitle(e.target.value)}  className="input"/>
+            <div className="cities">
+                <input type="text" placeholder="City 1" onChange={e => setCity1(e.target.value)} className="input" />
+                <input type="text" placeholder="City 2" onChange={e => setCity2(e.target.value)} className="input"/>
+            </div>
+
+            <button onClick={handleClick} >Compare Salaries</button>
 
             <BarChart width={600} height={300} data={data}>
                 <XAxis dataKey="city" />

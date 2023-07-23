@@ -1,0 +1,42 @@
+
+.card{
+  color:#6D6459;
+  background:white;
+  width:350px;
+  border-radius:5%;
+
+
+  .image-container{
+
+    .img{
+      width: 350px;
+      height: 200px;
+      object-fit: cover;
+      border-radius:5%;
+
+
+    }
+  }
+
+  .text-container{
+
+    h2{
+      color:#6D6459;
+      text-align: center;
+
+    }
+
+    p{
+      //width: 50%;
+      color:#6D6459;
+      text-align: center;
+      padding: 10px;
+
+    }
+
+  }
+
+
+
+
+}

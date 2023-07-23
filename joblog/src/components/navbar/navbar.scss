@@ -1,0 +1,31 @@
+
+.navbar{
+  display:flex;
+  //justify-content: center;
+  gap : 25px;
+  margin-left: 45%;
+  padding-top:1%;
+
+
+
+  .nav-item{
+    font-size:20px;
+    cursor: pointer
+  ;
+  }
+}
+
+@media (max-width: 600px){
+
+  .navbar{
+   font-size: 8px;
+    gap:4%;
+    margin-left:5%;
+
+    .nav-item{
+      font-size: 17px;
+
+    }
+  }
+
+}
