@@ -23,13 +23,20 @@ body {
     text-align: center;
   }
 
+  .TeamTitle{
+    padding-left: 22%;
+  }
+  .TeamBlock{
+    padding: 20px;
+  }
+
   .meet-team-sect{
     .mt-1{
       display : flex;
       flex-flow: row wrap;
       align-items: center;
       justify-content:center;
-      margin-top : 2%;
+      margin : 5%;
       gap : 15px;
 
     }
@@ -37,23 +44,25 @@ body {
   }
 
   .contact-us{
-    margin-top: 2%;
+    
     
 
     .contact-header{
       text-align: center;
       font-size: 1.3rem;
       font-weight: bold;
-
+    
     }
 
-    .form-sect{
-      display:flex;
-      justify-content:center;
-      align-items:center;
-      margin-bottom: 5%;
+    // .contact_sect{
+    //   display:flex;
+    //   justify-content:center;
+    //   align-items:center;
+    //   // margin-bottom: 5%;
+    //   // padding-bottom: 20%;
 
-    }
+
+    // }
 
   }
 

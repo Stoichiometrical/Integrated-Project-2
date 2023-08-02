@@ -56,46 +56,54 @@ const ContactForm = () => {
     };
 
     return (
+        
         <form onSubmit={handleSubmit} className="contact-form">
-            <div className="form-group">
-                <label htmlFor="fullName">Full Name</label>
-                <input
-                    type="text"
-                    id="fullName"
-                    name="fullName"
-                    value={formData.fullName}
-                    onChange={handleChange}
-                    className={formErrors.fullName ? 'error' : ''}
-                />
-                {formErrors.fullName && <span className="error-message">{formErrors.fullName}</span>}
-            </div>
+            <div className='formContainer'>
+                <div className="form-group">
+                    <label htmlFor="fullName">Full Name</label>
+                    <input
+                        type="text"
+                        id="fullName"
+                        name="fullName"
+                        placeholder='Enter your full name'
+                        value={formData.fullName}
+                        onChange={handleChange}
+                        className={formErrors.fullName ? 'error' : ''}
+                    />
+                    {formErrors.fullName && <span className="error-message">{formErrors.fullName}</span>}
+                </div>
 
-            <div className="form-group">
-                <label htmlFor="email">Email</label>
-                <input
-                    type="email"
-                    id="email"
-                    name="email"
-                    value={formData.email}
-                    onChange={handleChange}
-                    className={formErrors.email ? 'error' : ''}
-                />
-                {formErrors.email && <span className="error-message">{formErrors.email}</span>}
-            </div>
+                <div className="form-group">
+                    <label htmlFor="email">Email</label>
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        placeholder='Enter your email address'
+                        value={formData.email}
+                        onChange={handleChange}
+                        className={formErrors.email ? 'error' : ''}
+                    />
+                    {formErrors.email && <span className="error-message">{formErrors.email}</span>}
+                </div>
 
-            <div className="form-group">
-                <label htmlFor="message" className="tlabel">Message</label>
-                <textarea
-                    id="message"
-                    name="message"
-                    value={formData.message}
-                    onChange={handleChange}
-                    className={formErrors.message ? 'error' : ''}
-                />
-                {formErrors.message && <span className="error-message">{formErrors.message}</span>}
-            </div>
+                <div className="form-group">
+                    <label htmlFor="message" className="tlabel">Message</label>
+                    <textarea
+                        id="message"
+                        name="message"
+                        placeholder='Write your message...'
+                        value={formData.message}
+                        onChange={handleChange}
+                        className={formErrors.message ? 'error' : ''}
+                    />
+                    {formErrors.message && <span className="error-message">{formErrors.message}</span>}
+                </div>
+                <div>
+                <button type="submit">Submit</button>
+                </div>
 
-            <button type="submit">Submit</button>
+            </div>
         </form>
     );
 };
