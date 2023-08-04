@@ -1,31 +1,53 @@
-
-.navbar{
-  display:flex;
-  //justify-content: center;
-  gap : 25px;
+.navbar {
+  display: flex;
+  gap: 25px;
   margin-left: 45%;
-  padding-top:1%;
+  padding-top: 1%;
 
+  .nav-item {
+    font-size: 20px;
+    cursor: pointer;
+    position: relative;
 
+    .vis,
+    .doc {
+      display: none; /* Initially hidden */
+      background-color: rgba(139, 69, 19, 0.24);
+      flex-direction: column;
+      padding: 10px;
+      width: fit-content;
+      position: absolute;
+      top: 100%; /* Position below the corresponding section */
+      left: 0;
+      z-index: 1; /* Ensure it appears above other content */
 
-  .nav-item{
-    font-size:20px;
-    cursor: pointer
-  ;
+      .nav-hover {
+        color: white;
+        text-decoration: none;
+        width: fit-content;
+      }
+
+      .nav-hover:hover {
+        background-color: white;
+        color: #6d6459;
+      }
+    }
+
+    &:hover .vis,
+    &:hover .doc {
+      display: flex; /* Show the dropdown on hover */
+    }
   }
 }
 
-@media (max-width: 600px){
+@media (max-width: 600px) {
+  .navbar {
+    font-size: 8px;
+    gap: 4%;
+    margin-left: 5%;
 
-  .navbar{
-   font-size: 8px;
-    gap:4%;
-    margin-left:5%;
-
-    .nav-item{
+    .nav-item {
       font-size: 17px;
-
     }
   }
-
 }

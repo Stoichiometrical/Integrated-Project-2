@@ -1,0 +1,48 @@
+.search-container{
+
+  .s-sect{
+    display:flex;
+    //flex-direction:column;
+    justify-content:center;
+    margin-left: 10%;
+    margin-right:10%;
+
+
+    .search-text{
+      height : 50px;
+      width : 100%;
+      border-radius:15px;
+      flex:2;
+
+    }
+
+    .search-btn{
+      flex:1;
+
+    }
+
+    button{
+      cursor: pointer;
+
+    }
+
+  }
+
+  .total{
+    text-align:center;
+    color:white;
+  }
+
+
+  .job-comp{
+    color:white;
+    margin-left: 5%;
+
+    a{
+      font-weight:bold
+    }
+  }
+
+
+
+}

@@ -62,7 +62,8 @@ const FinalCompareCities = () => {
                 <div>
                     <h3>Please be patient it will take up to 45 seconds but we assure you the best results</h3>
                     <br/>
-                    <img src="https://miro.medium.com/v2/resize:fit:1400/1*Gvgic29bgoiGVLmI6AVbUg.gif" alt="Loading" style={{width :"400px",height :"100px"}}/>
+                    {/*<img src="https://miro.medium.com/v2/resize:fit:1400/1*Gvgic29bgoiGVLmI6AVbUg.gif" alt="Loading" style={{width :"400px",height :"100px"}}/>*/}
+                    <img src="https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto,q_auto,f_auto/attachments/delivery/asset/c49c83ef51b0c4230f8f39560b8250a3-1596267998/navy_for-light_bg/make-animated-logo-loader-for-your-website.gif" style={{width:"300px",height:"200px",marginLeft:"40%"}} />
                     </div>
             ) : (
                 <div className="bar" style={{marginTop:"2%"}}>

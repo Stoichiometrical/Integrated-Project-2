@@ -7,6 +7,33 @@
 .navbar .nav-item {
   font-size: 20px;
   cursor: pointer;
+  position: relative;
+}
+.navbar .nav-item .vis,
+.navbar .nav-item .doc {
+  display: none; /* Initially hidden */
+  background-color: rgba(139, 69, 19, 0.24);
+  flex-direction: column;
+  padding: 10px;
+  width: fit-content;
+  position: absolute;
+  top: 100%; /* Position below the corresponding section */
+  left: 0;
+  z-index: 1; /* Ensure it appears above other content */
+}
+.navbar .nav-item .vis .nav-hover,
+.navbar .nav-item .doc .nav-hover {
+  color: white;
+  text-decoration: none;
+  width: fit-content;
+}
+.navbar .nav-item .vis .nav-hover:hover,
+.navbar .nav-item .doc .nav-hover:hover {
+  background-color: white;
+  color: #6d6459;
+}
+.navbar .nav-item:hover .vis, .navbar .nav-item:hover .doc {
+  display: flex; /* Show the dropdown on hover */
 }
 
 @media (max-width: 600px) {
