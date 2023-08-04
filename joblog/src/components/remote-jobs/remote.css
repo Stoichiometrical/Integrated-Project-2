@@ -1,0 +1,23 @@
+.r-popularity h2 {
+  text-align: center;
+}
+.r-popularity .rpop-small {
+  margin-left: 10%;
+}
+.r-popularity .pop-viz {
+  display: flex;
+  justify-content: center;
+  margin-top: 2%;
+}
+
+.trends-container h1 {
+  text-align: center;
+  color: white;
+  margin-top: 2%;
+  margin-bottom: 4%;
+}
+.trends-container .trends {
+  margin-bottom: 2%;
+}
+
+/*# sourceMappingURL=remote.css.map */

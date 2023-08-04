@@ -1,5 +1,5 @@
 import "./styles.scss"
-import PopularityHero from "../components/salary-hero/PopularityHero";
+import PopularityHero from "../components/popularity-hero/PopularityHero";
 
 
 export default function CityComparison(){
@@ -7,7 +7,6 @@ export default function CityComparison(){
         <>
             <div className="salary-container">
                 <PopularityHero/>
-
             </div>
 
         </>

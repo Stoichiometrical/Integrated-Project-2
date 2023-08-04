@@ -1,0 +1,76 @@
+.popularity-hero{
+  background-image: url("https://images.pexels.com/photos/7218523/pexels-photo-7218523.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+  height: 100%;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+
+
+
+  .center, .center-bg{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 2%;
+
+    .center-bg{
+      /* From https://css.glass */
+      background: rgba(255, 255, 255, 0);
+      border-radius: 16px;
+      box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+      backdrop-filter: blur(2px);
+      -webkit-backdrop-filter: blur(5px);
+      //border: 1px solid rgba(255, 255, 255, 0.3);
+      border: none;
+
+      .center-title{
+        font-size:35px;
+        font-weight: bold;
+        color: white;
+      }
+
+      .center-sm{
+        width : 75%;
+        margin-bottom: 2%;
+        font-size: 18px;
+        text-align: center;
+        color: white;
+
+      }
+
+
+    }
+
+
+  }
+}
+
+@media (max-width: 600px){
+
+  .popularity-hero{
+    width: 120vw;
+    height:120vh;
+    background-position: center;
+
+
+    .center{
+
+
+      .center-title{
+        margin-left: 5%;
+        color:white;
+
+      }
+
+      .center-sm{
+        color:white;
+
+
+
+      }
+    }
+
+  }
+
+}

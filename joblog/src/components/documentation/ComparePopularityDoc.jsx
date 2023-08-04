@@ -1,12 +1,9 @@
-import "./styles.scss"
-import PageNotFound from "../components/404/PageNotFound";
-import DocumentationTemplate from "../components/documentation/Doc";
+import "./doc.scss"
+import DocumentationTemplate from "./Doc";
 
-
-export default function Documentation(){
+export default function ComparePopularityDoc(){
     return(
         <>
-      {/*<PageNotFound/>*/}
             <DocumentationTemplate
                 title="Job Popularity  Comparison Documentation"
                 api_name="JSearch"
@@ -16,6 +13,8 @@ export default function Documentation(){
 
 
             />
+
         </>
     )
 }
+

@@ -1,1 +1,0 @@
-http://api.adzuna.com/v1/api/jobs/gb/history?app_id={62ce5ece}&app_key={9643a467fb8e21a50535f24e7ac6e77d}&location0=UK&location1=London&category=it-jobs&content-type=application/json
