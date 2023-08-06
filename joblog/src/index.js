@@ -18,6 +18,7 @@ import Home from "./pages/Homepage";
 
 
 
+
  ReactGA.initialize('G-YW7BCY2X55');
 const router = createBrowserRouter([
     {

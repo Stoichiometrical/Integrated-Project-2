@@ -10,8 +10,11 @@ export default function RemoteJobs(){
     return(
         <div className="remote-jobs">
             <Navbar/>
-            <h1 className="r-header">Latest trends in Remote Jobs</h1>
-            <div className="r-small">As the future of work becomes more tech oriented, remote jobs have been on the rise.Check out the latest trend in Remote Jobs</div>
+            <div className="remo-text">
+                <h1 className="r-header">Latest trends in Remote Jobs</h1>
+                <div className="r-small">As the future of work becomes more tech oriented, remote jobs have been on the rise.Check out the latest trend in Remote Jobs</div>
+            </div>
+
 
             <div className="r-body">
                 <RemoteJobsVisualization />
