@@ -21,7 +21,7 @@ const Search = () => {
                 method: 'POST',
                 headers: {
                     'content-type': 'application/json',
-                    'X-RapidAPI-Key': '1526a07e77msh8e85f3abfa458bcp1cf15djsn8400d4456de9',
+                    'X-RapidAPI-Key': 'cef447cfe7mshe41b1b3f641f232p1e8a5cjsnf61aded1cef6',
                     'X-RapidAPI-Host': 'linkedin-jobs-search.p.rapidapi.com'
                 },
                 body: JSON.stringify({

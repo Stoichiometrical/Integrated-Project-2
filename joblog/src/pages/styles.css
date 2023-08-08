@@ -17,13 +17,26 @@ body {
 }
 .about-us h1 {
   text-align: center;
+  color: white;
+}
+.about-us .TeamTitle {
+  padding-left: 22%;
+}
+.about-us .TeamBlock {
+  padding: 20px;
+}
+.about-us .meet-team-sect {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .about-us .meet-team-sect .mt-1 {
   display: flex;
   flex-flow: row wrap;
   align-items: center;
   justify-content: center;
-  margin-top: 2%;
+  margin: 5%;
   gap: 15px;
 }
 .about-us .contact-us {
@@ -33,12 +46,6 @@ body {
   text-align: center;
   font-size: 1.3rem;
   font-weight: bold;
-}
-.about-us .contact-us .form-sect {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 5%;
 }
 
 .remote-jobs {

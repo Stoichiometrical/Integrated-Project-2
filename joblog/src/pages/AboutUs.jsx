@@ -25,7 +25,8 @@ export default function AboutUs(){
                     />
 
                     </div>
-                </div>
+
+
                 <div className="mt-1">
                     <TeamCard
                         img="./assets/martha.jpg"
@@ -37,7 +38,8 @@ export default function AboutUs(){
                 <TeamCard
                         img="./assets/langat.jpg"
                         name="Kevin Langat"
-                        desc="Driven by a passion for data analysis, Langat Kevin excels in data cleaning, manipulation, and insightful analysis. Currently in his third year studying Computing at African Leadership College, Mauritius, Kevin is proficient in Python, R, SQL, and Excel, effectively utilizing data tools to provide stakeholders with key insights. Skilled in clear data visualization and communication, he remains dedicated to continuous learning in order to leverage data to inform decision-making. With his expertise in supporting data-driven strategies, Kevin aspires to significantly contribute his analytical skills to organizations and make valuable impacts."/>
+                        desc="Driven by a passion for data analysis, Langat Kevin excels in data cleaning, manipulation, and insightful analysis. Currently in his third year studying Computing at African Leadership College, Mauritius, Kevin is proficient in Python, R, SQL, and Excel, effectively utilizing data tools to provide stakeholders with key insights. Skilled in clear data visualization and communication, he remains dedicated to continuous learning in order to leverage data to inform decision-making. With his expertise in supporting data-driven strategies, Kevin aspires to significantly contribute his analytical skills to organizations and make valuable impacts."
+                />
 
                     </div>
 
@@ -58,6 +60,8 @@ export default function AboutUs(){
 
 
                 </div>
+
+            </div>
 
 
             <div className="contact_sect">
